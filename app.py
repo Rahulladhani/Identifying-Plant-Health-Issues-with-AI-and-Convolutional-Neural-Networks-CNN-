@@ -5,19 +5,22 @@ import numpy as np
 import tensorflow as tf
 import streamlit as st
 import time
+import gdown  # Added to download files from Google Drive
 
 # Suppress TensorFlow warnings (optional)
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # Suppress detailed TensorFlow warnings
 tf.get_logger().setLevel('ERROR')
 
-# Get the working directory (current file's directory)
-working_dir = os.path.dirname(os.path.abspath(__file__))
+# Google Drive URL for the model file (your actual file ID from the link)
+model_url = 'https://drive.google.com/uc?id=1hJTry62PBf9fCV6namdVa9qzTvf8sEBl'
+output_model = 'plant_disease_prediction_model.h5'
 
-# Path to the model
-model_path = os.path.join(working_dir, 'trained_model', 'plant_disease_prediction_model.h5')
+# Download the model file if it doesn't exist locally
+if not os.path.exists(output_model):
+    gdown.download(model_url, output_model, quiet=False)
 
 # Path to the class indices file
-class_indices_path = os.path.join(working_dir, 'class_indices.json')
+class_indices_path = os.path.join(os.path.dirname(__file__), 'class_indices.json')
 
 # Function to load the model with error handling
 def load_model(model_path):
@@ -44,7 +47,7 @@ def load_class_indices(class_indices_path):
         return None
 
 # Load the pre-trained model and class indices
-model = load_model(model_path)
+model = load_model(output_model)
 class_indices = load_class_indices(class_indices_path)
 
 # Ensure both model and class indices are loaded successfully

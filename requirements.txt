@@ -3,3 +3,4 @@ tensorflow==2.17.0
 pillow
 numpy==1.26.4
 protobuf==3.20.*
+gdown
