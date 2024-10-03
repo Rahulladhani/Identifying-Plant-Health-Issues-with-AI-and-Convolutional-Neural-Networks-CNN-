@@ -11,7 +11,9 @@ import gdown  # Added to download files from Google Drive
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # Suppress detailed TensorFlow warnings
 tf.get_logger().setLevel('ERROR')
 
-# Google Drive URL for the model file (your actual file ID from the link)
+# Google Drive URL for the model file (your actual file ID from the link)git add requirements.txt
+# git commit -m "Added TensorFlow to requirements"
+# git push origin main
 model_url = 'https://drive.google.com/uc?id=1hJTry62PBf9fCV6namdVa9qzTvf8sEBl'
 output_model = 'plant_disease_prediction_model.h5'
 
