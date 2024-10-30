@@ -9,3 +9,13 @@ This tool leverages Convolutional Neural Networks (CNNs) to analyze images of pl
 • **AI-Powered Diagnosis:** The CNN model identifies specific plant diseases with high accuracy, providing actionable insights to the user.
 
 • **Streamlit Interface:** A user-friendly interface for real-time plant disease detection.
+
+# Usage/Examples
+1. Run the Streamlit App:
+![image](https://github.com/user-attachments/assets/b61e9bff-2ea4-4705-ad06-1ac35d6650c7)
+
+2.**Open the App:** Once running, the app will open in your browser.
+
+**Upload Images:** Use the upload feature on the sidebar to submit images of plant leaves for analysis.
+**Disease Detection:** Click "Analyze Image" to process the image and receive an immediate diagnosis, including the disease name and possible severity.
+**Example Images:** Try testing the app with images of common plant diseases for best results.
