@@ -24,8 +24,14 @@ This tool leverages Convolutional Neural Networks (CNNs) to analyze images of pl
 
 # Project Structure
 
-**main.py:** The main script for running the Streamlit application.
-**model/:** Directory containing the pre-trained CNN model and any related files.
-**requirements.txt:** List of required Python packages, including TensorFlow and Streamlit.
-**sample_images/:** A collection of sample images for testing the app’s functionality.  
+• **main.py:** The main script for running the Streamlit application.
+
+• **model/:** Directory containing the pre-trained CNN model and any related files.
+
+• **requirements.txt:** List of required Python packages, including TensorFlow and Streamlit.
+
+• **sample_images/:** A collection of sample images for testing the app’s functionality.  
+
+# Conclusion
+This CNN-based Plant Disease Detection tool serves as a valuable asset for agricultural diagnostics, offering a rapid, AI-driven approach to identifying plant diseases. With its intuitive interface and high-accuracy model, users can gain insights into crop health efficiently, empowering timely intervention and better crop management practices. Future improvements may include expanding the dataset for broader disease coverage and enhancing model accuracy.
    
