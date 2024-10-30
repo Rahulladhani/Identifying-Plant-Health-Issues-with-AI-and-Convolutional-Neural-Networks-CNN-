@@ -21,3 +21,11 @@ This tool leverages Convolutional Neural Networks (CNNs) to analyze images of pl
    **Disease Detection:** Click "Analyze Image" to process the image and receive an immediate diagnosis, including the disease name and possible severity.
 
    **Example Images:** Try testing the app with images of common plant diseases for best results.
+
+# Project Structure
+
+**main.py:** The main script for running the Streamlit application.
+**model/:** Directory containing the pre-trained CNN model and any related files.
+**requirements.txt:** List of required Python packages, including TensorFlow and Streamlit.
+**sample_images/:** A collection of sample images for testing the app’s functionality.  
+   
