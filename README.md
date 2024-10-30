@@ -14,7 +14,7 @@ This tool leverages Convolutional Neural Networks (CNNs) to analyze images of pl
 1. Run the Streamlit App:
 ![image](https://github.com/user-attachments/assets/b61e9bff-2ea4-4705-ad06-1ac35d6650c7)
 
-2.**Open the App:** Once running, the app will open in your browser.
+2. **Open the App:** Once running, the app will open in your browser.
 
    **Upload Images:** Use the upload feature on the sidebar to submit images of plant leaves for analysis.
 
